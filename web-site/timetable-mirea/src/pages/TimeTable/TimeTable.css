@@ -1,0 +1,64 @@
+.timetable_main{
+    position: relative;
+    width: 100vw;
+    height: 92vh;
+    background: var(--background-color-main);
+    display: flex;
+}
+
+.timetable_panel{
+    box-sizing: border-box;
+    position: relative;
+    left: 1%;
+    top: 3%;
+    height: 96%;
+    
+    width: 20%;
+    border: 1px solid #3F88C5;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.timetable_body{
+    box-sizing: border-box;
+    position: relative;
+    left: 2%;
+    top: 3%;
+    width: 76%;
+    height: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    border: 1px solid #3F88C5;
+    border-radius: 10px;
+    padding: 25px;
+
+}
+
+p{
+    color:var(--color-text);
+}
+
+label{
+    color:var(--color-text);
+}
+
+.change_type_info{
+    width: 12vw;
+    height: 7vh;
+
+    background: #42494D;
+    border: 1px solid #3F88C5;
+    border-radius: 10px;
+    color: #F6F7EB;;
+}
+
+input{
+    border: 1px solid #3F88C5;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    /* width: 90%; */
+}
